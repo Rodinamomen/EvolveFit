@@ -1,12 +1,12 @@
-package com.app.evolvefit.ui.components.buttons
+package com.app.evolvefit.common.ui.components.buttons
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Shape
-import com.app.evolvefit.ui.components.multipreview.PreviewAllVariants
-import com.app.evolvefit.ui.theme.EvolveFitTheme
+import com.app.evolvefit.common.ui.components.multipreview.PreviewAllVariants
+import com.app.evolvefit.common.ui.theme.EvolveFitTheme
 
 @Composable
 fun PrimaryEvolveFitButton(
@@ -18,24 +18,24 @@ fun PrimaryEvolveFitButton(
     isLoading: Boolean = EvolveFitButtonDefaults.isLoading,
     horizontalArrangement: Arrangement.Horizontal = EvolveFitButtonDefaults.horizontalArrangement,
     verticalAlignment: Alignment.Vertical = EvolveFitButtonDefaults.verticalAlignment,
-    colors: EvolveFitButtonColors = EvolveFitButtonDefaults.PrimaryColors(),
+    colors:EvolveFitButtonColors = EvolveFitButtonDefaults.PrimaryColors(),
 ) {
     EvolveFitButton(
         modifier = modifier,
         label = label,
         onClick = onClick,
-        shape =  shape,
-        isEnabled =  isEnabled,
-        isLoading =  isLoading,
+        shape = shape,
+        isEnabled = isEnabled,
+        isLoading = isLoading,
         horizontalArrangement = horizontalArrangement,
         verticalAlignment = verticalAlignment,
-        colors =  colors
+        colors = colors
     )
 }
 
 @Composable
 @PreviewAllVariants
-private fun PrimaryEvolveFitButtonPreview() = EvolveFitTheme{
+private fun PrimaryEvolveFitButtonPreview() = EvolveFitTheme {
     PrimaryEvolveFitButton(
         label = "EvolveFit",
         onClick = {}
