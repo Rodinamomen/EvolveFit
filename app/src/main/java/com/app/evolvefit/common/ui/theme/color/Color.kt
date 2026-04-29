@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.theme.color
+package com.app.evolvefit.common.ui.theme.color
 
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color

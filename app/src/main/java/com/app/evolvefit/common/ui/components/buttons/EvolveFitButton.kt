@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.components.buttons
+package com.app.evolvefit.common.ui.components.buttons
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -21,10 +21,10 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.app.evolvefit.ui.components.buttons.EvolveFitButtonDefaults.RippleColor
-import com.app.evolvefit.ui.components.loading.LoadingIndicator
-import com.app.evolvefit.ui.components.multipreview.PreviewAllVariants
-import com.app.evolvefit.ui.theme.EvolveFitTheme
+import com.app.evolvefit.common.ui.components.buttons.EvolveFitButtonDefaults.RippleColor
+import com.app.evolvefit.common.ui.components.loading.LoadingIndicator
+import com.app.evolvefit.common.ui.components.multipreview.PreviewAllVariants
+import com.app.evolvefit.common.ui.theme.EvolveFitTheme
 
 @Composable
 fun EvolveFitButton(
@@ -108,14 +108,15 @@ object EvolveFitButtonDefaults {
         disabledContentColor: Color = Color.Unspecified,
         rippleColor: Color = Color.Unspecified,
         disabledRippleColor: Color = Color.Unspecified,
-    ): EvolveFitButtonColors = EvolveFitButtonColors(
-        containerColor = containerColor,
-        contentColor = contentColor,
-        disabledContainerColor = disabledContainerColor,
-        disabledContentColor = disabledContentColor,
-        rippleColor = rippleColor,
-        disabledRippleColor = disabledRippleColor
-    )
+    ): EvolveFitButtonColors =
+        EvolveFitButtonColors(
+            containerColor = containerColor,
+            contentColor = contentColor,
+            disabledContainerColor = disabledContainerColor,
+            disabledContentColor = disabledContentColor,
+            rippleColor = rippleColor,
+            disabledRippleColor = disabledRippleColor
+        )
 
     @Composable
     fun ContainerColor(
@@ -147,14 +148,15 @@ object EvolveFitButtonDefaults {
         disabledContentColor: Color = EvolveFitTheme.colors.surface.outline,
         rippleColor: Color = EvolveFitTheme.colors.brand.onPrimary,
         disabledRippleColor: Color = EvolveFitTheme.colors.surface.outline,
-    ): EvolveFitButtonColors = EvolveFitButtonColors(
-        containerColor = containerColor,
-        contentColor = contentColor,
-        disabledContainerColor = disabledContainerColor,
-        disabledContentColor = disabledContentColor,
-        rippleColor = rippleColor,
-        disabledRippleColor = disabledRippleColor
-    )
+    ): EvolveFitButtonColors =
+        EvolveFitButtonColors(
+            containerColor = containerColor,
+            contentColor = contentColor,
+            disabledContainerColor = disabledContainerColor,
+            disabledContentColor = disabledContentColor,
+            rippleColor = rippleColor,
+            disabledRippleColor = disabledRippleColor
+        )
 }
 
 @Composable

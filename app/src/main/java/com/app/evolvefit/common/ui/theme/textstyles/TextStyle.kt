@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.theme.textstyles
+package com.app.evolvefit.common.ui.theme.textstyles
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.staticCompositionLocalOf

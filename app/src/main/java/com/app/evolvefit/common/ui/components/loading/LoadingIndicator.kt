@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.components.loading
+package com.app.evolvefit.common.ui.components.loading
 
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
@@ -17,9 +17,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.app.evolvefit.ui.components.multipreview.PreviewAllVariants
-import com.app.evolvefit.ui.theme.EvolveFitTheme
-import com.app.evolvefit.ui.theme.icon.EvolveFitIcons
+import com.app.evolvefit.common.ui.components.multipreview.PreviewAllVariants
+import com.app.evolvefit.common.ui.theme.EvolveFitTheme
+import com.app.evolvefit.common.ui.theme.icon.EvolveFitIcons
 
 @Composable
 fun LoadingIndicator(

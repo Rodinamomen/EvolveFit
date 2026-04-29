@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.theme.space
+package com.app.evolvefit.common.ui.theme.space
 
 import androidx.compose.ui.unit.dp
 

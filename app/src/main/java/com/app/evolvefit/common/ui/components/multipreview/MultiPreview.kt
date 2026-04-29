@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.components.multipreview
+package com.app.evolvefit.common.ui.components.multipreview
 
 import android.content.res.Configuration.UI_MODE_NIGHT_NO
 import android.content.res.Configuration.UI_MODE_NIGHT_YES

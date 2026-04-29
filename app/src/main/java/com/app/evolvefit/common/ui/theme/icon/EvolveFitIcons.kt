@@ -1,4 +1,4 @@
-package com.app.evolvefit.ui.theme.icon
+package com.app.evolvefit.common.ui.theme.icon
 
 import com.app.evolvefit.R
 
