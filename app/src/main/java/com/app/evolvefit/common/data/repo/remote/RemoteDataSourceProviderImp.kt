@@ -23,7 +23,7 @@ import io.ktor.utils.io.InternalAPI
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.Json
 
-class RemoteDataSourceProvider(private val client: HttpClient, private val json: Json) :
+class RemoteDataSourceProviderImp(private val client: HttpClient, private val json: Json) :
     RemoteDataSourceProvider {
     @OptIn(InternalAPI::class)
     override suspend fun <ResponseBody, RequestBody> request(

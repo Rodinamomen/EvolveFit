@@ -14,7 +14,7 @@ import com.app.evolvefit.common.domain.repo.local.KeyValueDataSourceKey
 import com.app.evolvefit.common.domain.repo.local.KeyValueDataSourceProvider
 import kotlinx.coroutines.flow.first
 
-class KeyValueDataSourceProvider (private val dataStore: DataStore<Preferences>) : KeyValueDataSourceProvider {
+class KeyValueDataSourceProviderImp (private val dataStore: DataStore<Preferences>) : KeyValueDataSourceProvider {
     private fun <Value> preferencesKey(
         key: KeyValueDataSourceKey,
         type: Class<*>
